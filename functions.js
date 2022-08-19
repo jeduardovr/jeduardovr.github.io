@@ -1,21 +1,21 @@
 $(document).ready(function () {
-    // $('#mainDiv').hide()
-    // Swal.fire(
-    //     {
-    //         allowOutsideClick: false,
-    //         title: 'Hola niña bonita 😍',
-    //         text: 'Me gustaría contarle un secreto, puedo? 🙈',
-    //         showDenyButton: true,
-    //         denyButtonText: ' No 😔',
-    //         confirmButtonText: `Si 😊`,
-    //     }
-    // ).then((result) => {
-    //     if (result.isConfirmed) {
-    //         NoEsUnSecreto()
-    //     } else if (result.isDenied) {
-    //         PorFavorDejemeSeguir()
-    //     }
-    //   })
+    $('#mainDiv').hide()
+    Swal.fire(
+        {
+            allowOutsideClick: false,
+            title: 'Hola niña bonita 😍',
+            text: 'Me gustaría contarle un secreto, puedo? 🙈',
+            showDenyButton: true,
+            denyButtonText: ' No 😔',
+            confirmButtonText: `Si 😊`,
+        }
+    ).then((result) => {
+        if (result.isConfirmed) {
+            NoEsUnSecreto()
+        } else if (result.isDenied) {
+            PorFavorDejemeSeguir()
+        }
+      })
 })
 
 function PorFavorDejemeSeguir() {
