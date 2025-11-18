@@ -3,171 +3,349 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jesus Eduardo Velazquez Ramirez - CV</title>
+  <title>Jesus Eduardo Velazquez Ramirez - Full Stack Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <div class="container">
-    <div class="header">
-      <div class="header-text">
-        <h1>Jesus Eduardo Velazquez Ramirez</h1>
-        <p class="role">Full Stack Developer</p>
-        <p class="subtitle">Ing. en Tecnologías de la Información y Comunicación</p>
-        <div class="contact-info">
-          <div class="contact-item">📞 +52 664 753 0027</div> <!-- 👈 Teléfono agregado -->
-          <div class="contact-item">📧 eduardovelazquez700@gmail.com</div>
-          <div class="contact-item">📍 Tijuana, México</div>
-          <div class="contact-item">
-            <a href="https://www.linkedin.com/in/eduardo-velazquez-11a630118?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
-              🔗 LinkedIn Perfil
+    <!-- Header Section -->
+    <header class="header">
+      <div class="header-content">
+        <div class="header-text">
+          <div class="name-title">
+            <h1 class="name">Jesus Eduardo Velazquez Ramirez</h1>
+            <div class="divider"></div>
+            <p class="role">Full Stack Developer</p>
+          </div>
+          <p class="subtitle">Ing. en Tecnologías de la Información y Comunicación</p>
+          
+          <div class="contact-grid">
+            <a href="mailto:eduardovelazquez700@gmail.com" class="contact-item">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg>
+              <span>eduardovelazquez700@gmail.com</span>
+            </a>
+            
+            <div class="contact-item">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+              </svg>
+              <span>+52 664 123 4567</span>
+            </div>
+            
+            <div class="contact-item">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              <span>Tijuana, México</span>
+            </div>
+            
+            <a href="https://www.linkedin.com/in/eduardo-velazquez-11a630118" target="_blank" class="contact-item">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              <span>LinkedIn Perfil</span>
             </a>
           </div>
         </div>
+        
+        <div class="header-photo">
+          <div class="photo-wrapper">
+            <img src="assets/mifoto.jpg" alt="Foto de Eduardo Velazquez">
+            <div class="photo-ring"></div>
+          </div>
+        </div>
       </div>
-      <div class="profile-photo">
-        <img src="assets/mifoto.jpg" alt="Foto de Eduardo Velazquez">
-      </div>
-    </div>
+    </header>
 
-    <div class="content">
-      <div class="section">
-        <h2 class="section-title">Resumen Profesional</h2>
+    <!-- Main Content -->
+    <main class="content">
+      <!-- Summary Section -->
+      <section class="section summary-section">
+        <div class="section-header">
+          <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+          <h2 class="section-title">Resumen Profesional</h2>
+        </div>
         <p class="summary-text">
-          Ingeniero en Tecnologías de la Información y Comunicación con amplia experiencia en el desarrollo de software y la optimización de procesos tecnológicos. Especialista en desarrollo full stack, automatización y soluciones a medida. Experiencia en industrias como logística, manufactura y reciclaje, con enfoque en eficiencia, soporte técnico y modernización.
+          Ingeniero en Tecnologías de la Información y Comunicación con <strong>más de 7 años de experiencia</strong> en el desarrollo de software y la optimización de procesos tecnológicos. Especialista en desarrollo full stack, automatización y soluciones a medida. Experiencia comprobada en industrias como logística, manufactura y reciclaje, con enfoque en eficiencia operativa, soporte técnico y modernización de sistemas.
         </p>
-      </div>
+      </section>
 
-      <div class="section">
-        <h2 class="section-title">Experiencia Profesional</h2>
-
-        <div class="job-entry">
-          <div class="job-title"><span class="job-company">Eco Recycling</span> — Desarrollador Full Stack</div>
-          <div class="job-time">2022–2025</div>
-          <ul>
-            <li>Desarrollo de CRM interno con Angular, Node.js y MongoDB.</li>
-            <li>Uso de Bootstrap, Tailwind CSS y herramientas de IA (ChatGPT, Gemini, HeyGen, n8n).</li>
-            <li>Automatización de procesos y generación de reportes personalizados.</li>
-          </ul>
+      <!-- Experience Section -->
+      <section class="section">
+        <div class="section-header">
+          <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+            <path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/>
+          </svg>
+          <h2 class="section-title">Experiencia Profesional</h2>
         </div>
 
-        <div class="job-entry">
-          <div class="job-title"><span class="job-company">JD Group (Agencia Aduanal)</span> — Desarrollador Full Stack</div>
-          <div class="job-time">2019–2022</div>
-          <ul>
-            <li>Desarrollo de funcionalidades en plataforma SILA con .NET, SQL Server e Ionic.</li>
-            <li>Corrección de errores, mantenimiento y soporte a usuarios internos.</li>
-          </ul>
-        </div>
-
-        <div class="job-entry">
-          <div class="job-title"><span class="job-company">Futura Industrial</span> — Desarrollador de Software</div>
-          <div class="job-time">2018–2019</div>
-          <ul>
-            <li>Desarrollo de sistema de tickets para soporte técnico.</li>
-            <li>Mantenimiento de sistemas SQL y apoyo en reportes con SAP.</li>
-          </ul>
-        </div>
-
-        <div class="job-entry">
-          <div class="job-title"><span class="job-company">PC Manufacturing</span> — Programador</div>
-          <div class="job-time">2017–2018</div>
-          <ul>
-            <li>Desarrollo de aplicaciones internas utilizando JavaScript y MySQL.</li>
-            <li>Apoyo al área de sistemas para mejora continua y mantenimiento de código existente.</li>
-          </ul>
-        </div>
-
-        <div class="job-entry">
-          <div class="job-title"><span class="job-company">Global Trade Logistics</span> — Especialista de Sistemas</div>
-          <div class="job-time">2016–2017</div>
-          <ul>
-            <li>Soporte técnico a usuarios en empresa de logística.</li>
-            <li>Desarrollo en PHP con MySQL y creación de reportes personalizados.</li>
-          </ul>
-        </div>
-
-        <div class="job-entry">
-          <div class="job-title"><span class="job-company">Honeywell (Planta El Florido)</span> — Practicante de Desarrollo de Software</div>
-          <div class="job-time">2014–2016</div>
-          <ul>
-            <li>Desarrollo de un sistema de escritorio para control de scrap en producción.</li>
-            <li>Optimización del seguimiento de desperdicios y trazabilidad de procesos.</li>
-            <li>Colaboración con equipos de calidad y manufactura.</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="section">
-        <h2 class="section-title">Habilidades Técnicas</h2>
-        <div class="skills-container">
-          <div class="skill-category">
-            <div class="category-title">Lenguajes & Frameworks</div>
-            <div class="skills-list">
-              <span class="skill-tag">JavaScript</span>
-              <span class="skill-tag">TypeScript</span>
-              <span class="skill-tag">Node.js</span>
-              <span class="skill-tag">Express</span>
-              <span class="skill-tag">PHP</span>
-              <span class="skill-tag">.NET</span>
-              <span class="skill-tag">C#</span>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="job-header">
+                <div>
+                  <h3 class="job-title">Desarrollador Full Stack</h3>
+                  <div class="job-company">ECORE-CYCLING</div>
+                </div>
+                <div class="job-period">2022 — 2025</div>
+              </div>
+              <ul class="job-description">
+                <li>Desarrollo de CRM interno completo utilizando Angular, Node.js y MongoDB para gestión de clientes y procesos.</li>
+                <li>Implementación de interfaces responsivas con Bootstrap y Tailwind CSS, optimizando la experiencia de usuario.</li>
+                <li>Integración de herramientas de IA (ChatGPT, Gemini, HeyGen, n8n) para automatización de workflows y generación de contenido.</li>
+                <li>Creación de sistemas de reportes personalizados y dashboards analíticos para toma de decisiones.</li>
+              </ul>
             </div>
           </div>
 
-          <div class="skill-category">
-            <div class="category-title">Bases de Datos</div>
-            <div class="skills-list">
-              <span class="skill-tag">SQL</span>
-              <span class="skill-tag">MySQL</span>
-              <span class="skill-tag">SQL Server</span>
-              <span class="skill-tag">MongoDB</span>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="job-header">
+                <div>
+                  <h3 class="job-title">Desarrollador Full Stack</h3>
+                  <div class="job-company">JD Group — Agencia Aduanal</div>
+                </div>
+                <div class="job-period">2019 — 2022</div>
+              </div>
+              <ul class="job-description">
+                <li>Desarrollo y mantenimiento de funcionalidades en plataforma SILA usando .NET, SQL Server e Ionic.</li>
+                <li>Optimización de queries SQL para mejorar el rendimiento de reportes y consultas complejas.</li>
+                <li>Soporte técnico directo a usuarios internos, reduciendo tiempos de respuesta y mejorando la satisfacción del cliente.</li>
+                <li>Implementación de correcciones críticas y mejoras continuas en el sistema.</li>
+              </ul>
             </div>
           </div>
 
-          <div class="skill-category">
-            <div class="category-title">Frontend</div>
-            <div class="skills-list">
-              <span class="skill-tag">Angular</span>
-              <span class="skill-tag">Ionic</span>
-              <span class="skill-tag">Bootstrap</span>
-              <span class="skill-tag">Tailwind CSS</span>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="job-header">
+                <div>
+                  <h3 class="job-title">Desarrollador de Software</h3>
+                  <div class="job-company">Futura Industrial</div>
+                </div>
+                <div class="job-period">2018 — 2019</div>
+              </div>
+              <ul class="job-description">
+                <li>Desarrollo de sistema de gestión de tickets para soporte técnico interno, mejorando la trazabilidad de incidencias.</li>
+                <li>Mantenimiento y optimización de bases de datos SQL Server.</li>
+                <li>Colaboración con equipos de producción para crear reportes personalizados usando SAP.</li>
+              </ul>
             </div>
           </div>
 
-          <div class="skill-category">
-            <div class="category-title">Herramientas & DevOps</div>
-            <div class="skills-list">
-              <span class="skill-tag">Git</span>
-              <span class="skill-tag">Postman</span>
-              <span class="skill-tag">SAP</span>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="job-header">
+                <div>
+                  <h3 class="job-title">Programador</h3>
+                  <div class="job-company">PC Manufacturing</div>
+                </div>
+                <div class="job-period">2017 — 2018</div>
+              </div>
+              <ul class="job-description">
+                <li>Desarrollo de aplicaciones web internas utilizando JavaScript, HTML5 y MySQL.</li>
+                <li>Implementación de mejoras en sistemas legacy y refactorización de código.</li>
+                <li>Colaboración con el área de sistemas para mantenimiento preventivo y correctivo.</li>
+              </ul>
             </div>
           </div>
 
-          <div class="skill-category">
-            <div class="category-title">IA & Automatización</div>
-            <div class="skills-list">
-              <span class="skill-tag">ChatGPT</span>
-              <span class="skill-tag">Gemini</span>
-              <span class="skill-tag">HeyGen</span>
-              <span class="skill-tag">n8n</span>
-              <span class="skill-tag">Vercel</span>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="job-header">
+                <div>
+                  <h3 class="job-title">Especialista de Sistemas</h3>
+                  <div class="job-company">Global Trade Logistics</div>
+                </div>
+                <div class="job-period">2016 — 2017</div>
+              </div>
+              <ul class="job-description">
+                <li>Soporte técnico a usuarios en empresa de logística internacional.</li>
+                <li>Desarrollo de módulos web en PHP con MySQL para gestión de operaciones.</li>
+                <li>Generación de reportes personalizados y automatización de procesos rutinarios.</li>
+              </ul>
             </div>
           </div>
 
-          <div class="skill-category">
-            <div class="category-title">Especialidades</div>
-            <div class="skills-list">
-              <span class="skill-tag">CRMs</span>
-              <span class="skill-tag">Dashboards</span>
-              <span class="skill-tag">Reportes</span>
-              <span class="skill-tag">Metodologías Ágiles</span>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="job-header">
+                <div>
+                  <h3 class="job-title">Practicante de Desarrollo de Software</h3>
+                  <div class="job-company">Honeywell — Planta El Florido</div>
+                </div>
+                <div class="job-period">2014 — 2016</div>
+              </div>
+              <ul class="job-description">
+                <li>Desarrollo de sistema de escritorio para control de scrap en líneas de producción.</li>
+                <li>Optimización del seguimiento de desperdicios y mejora en la trazabilidad de procesos de manufactura.</li>
+                <li>Colaboración estrecha con equipos de calidad y producción para análisis de métricas.</li>
+              </ul>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="section">
+        <div class="section-header">
+          <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+            <polyline points="2 17 12 22 22 17"/>
+            <polyline points="2 12 12 17 22 12"/>
+          </svg>
+          <h2 class="section-title">Habilidades Técnicas</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"/>
+                <polyline points="8 6 2 12 8 18"/>
+              </svg>
+              <h3 class="skill-category-title">Lenguajes & Frameworks</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge">JavaScript</span>
+              <span class="skill-badge">TypeScript</span>
+              <span class="skill-badge">Node.js</span>
+              <span class="skill-badge">Express</span>
+              <span class="skill-badge">PHP</span>
+              <span class="skill-badge">.NET</span>
+              <span class="skill-badge">C#</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+              </svg>
+              <h3 class="skill-category-title">Bases de Datos</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge">SQL</span>
+              <span class="skill-badge">MySQL</span>
+              <span class="skill-badge">SQL Server</span>
+              <span class="skill-badge">MongoDB</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+              <h3 class="skill-category-title">Frontend</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge">Angular</span>
+              <span class="skill-badge">Ionic</span>
+              <span class="skill-badge">Bootstrap</span>
+              <span class="skill-badge">Tailwind CSS</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+              </svg>
+              <h3 class="skill-category-title">Herramientas & DevOps</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge">Git</span>
+              <span class="skill-badge">Postman</span>
+              <span class="skill-badge">SAP</span>
+              <span class="skill-badge">Vercel</span>
+              <span class="skill-badge">Monday</span>
+    <span class="skill-badge">Jira</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/>
+                <polyline points="7.5 4.21 12 6.81 16.5 4.21"/>
+                <polyline points="7.5 19.79 7.5 14.6 3 12"/>
+                <polyline points="21 12 16.5 14.6 16.5 19.79"/>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                <line x1="12" y1="22.08" x2="12" y2="12"/>
+              </svg>
+              <h3 class="skill-category-title">IA & Automatización</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge">ChatGPT</span>
+              <span class="skill-badge">Gemini</span>
+              <span class="skill-badge">HeyGen</span>
+              <span class="skill-badge">n8n</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+              <h3 class="skill-category-title">Especialidades</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge">CRMs</span>
+              <span class="skill-badge">Dashboards</span>
+              <span class="skill-badge">Reportes</span>
+              <span class="skill-badge">Metodologías Ágiles (SCRUM)</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section portfolio-section">
+  <div class="section-header">
+    <!-- Puedes agregar un ícono SVG aquí -->
+    <h2 class="section-title">Portafolio</h2>
+  </div>
+  <div class="portfolio-links" style="display: flex; gap: 2rem; flex-wrap: wrap;">
+    <a href="https://jeduardovr.github.io/barberia/" target="_blank" class="portfolio-card">
+      <span class="portfolio-title">Barbería</span>
+    </a>
+    <a href="https://jeduardovr.github.io/cafeteria" target="_blank" class="portfolio-card">
+      <span class="portfolio-title">Cafetería</span>
+    </a>
+    <a href="https://gruastonys.com/" target="_blank" class="portfolio-card">
+      <span class="portfolio-title">Gruas Tonys</span>
+    </a>
+  </div>
+</section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Curriculum Vitae — Jesus Eduardo Velazquez Ramirez</p>
+      <p class="footer-year">2025</p>
+    </footer>
   </div>
 </body>
 </html>
